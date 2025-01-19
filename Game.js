@@ -39,7 +39,7 @@ class Game {
         .toUpperCase()}).`
     ); // Display the random number and key
 
-    if (parseInt(userChoice) === randomNumber) {
+    if (parseInt(userChoice) !== randomNumber) {
       this.computerDice =
         this.diceList[Math.floor(Math.random() * this.diceList.length)]; // Randomly select computer's dice
 
