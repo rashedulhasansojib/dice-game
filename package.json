@@ -1,0 +1,21 @@
+{
+  "name": "dice-game",
+  "version": "1.0.0",
+  "description": "A generalized non-transitive dice game with fair random generation.",
+  "main": "Main.js",
+  "scripts": {
+    "start": "node Main.js"
+  },
+  "dependencies": {
+    "cli-table3": "^0.6.5"
+  },
+  "keywords": [
+    "dice",
+    "game",
+    "non-transitive",
+    "random",
+    "fair"
+  ],
+  "author": "Rashedul Hasan",
+  "license": ""
+}
