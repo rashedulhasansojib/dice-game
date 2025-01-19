@@ -17,7 +17,7 @@ class DiceParser {
         faces.some((face) => face < 1)
       ) {
         throw new Error(
-          `Invalid dice configuration: '${arg}'. Example: '2,2,4,4,9,9'`
+          `Invalid dice configuration: [${arg}] Example: [2,2,4,4,9,9]`
         ); // Validate the dice configuration (must have 6 positive integers)
       }
       diceList.push(new Dice(faces)); // Create a new Dice object and add it to the list

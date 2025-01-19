@@ -12,7 +12,7 @@ const { DiceParser } = require("./DiceParser");
   } catch (error) {
     console.error(error.message); // Display error message
     console.log(
-      "Example usage: node Main.js 2,2,4,4,9,9 6,8,1,1,8,6 7,5,3,7,5,3"
+      "Example usage:\n   node Main.js 2,2,4,4,9,9 6,8,1,1,8,6 7,5,3,7,5,3\n   or\n   npm start -- 2,2,4,4,9,9 6,8,1,1,8,6 7,5,3,7,5,3"
     ); // Show example usage
   }
 })();
